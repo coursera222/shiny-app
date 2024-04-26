@@ -1,0 +1,61 @@
+---
+title: "IrisPresentation"
+author: "Alibek Bakytovich Chirchikbayev"
+date: "26 04 2024"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Slide 1: Introduction
+
+- Title: Introduction to Our Shiny App
+- Description: Welcome to our shiny app presentation. It is Shiny application that predicts the species of iris flowers based on user input of sepal length and width.
+
+
+## Slide 2: Problem Statement
+
+- Title: Identifying the Problem
+- Description: shiny app solves problem by predicting iris species.The problem at hand is to predict the species of iris flowers based on certain characteristics, such as sepal length and width. This task is common in data analysis and machine learning, where predictive models are built to classify or predict outcomes based on input features.
+
+
+## Slide 3: Solution Overview
+
+- Title: Solution Overview
+- Description: Overview of how our shiny app addresses the problem. 
+Our solution involves building a Shiny application that leverages a machine learning model trained on the iris dataset. The application allows users to input the sepal length and width of an iris flower and provides a prediction of its species based on these inputs.
+
+
+## Slide 4: Functionality
+
+The Shiny application provides a user-friendly interface where users can input numeric values for sepal length and width using numeric input widgets. These inputs are then used as features to make predictions using a pre-trained machine learning model.
+
+
+## Slide 5: Demo
+
+- Title: Demo of Shiny App
+- link:  <https://alibekproj.shinyapps.io/IrisPreiction/>.
+
+## Slide 6: Demo
+- In summary, my Shiny application effectively addresses the problem of predicting the species of iris flowers by providing an interactive platform for users to input sepal measurements and obtain predictions in real-time. It leverages the power of Shiny's interactivity and reactive programming to deliver a user-friendly and informative experience for users.
+
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
